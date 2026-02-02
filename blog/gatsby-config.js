@@ -16,8 +16,8 @@ module.exports = {
     contact: {
       name: `Parker Niemiec`,
       company: `Blogs Inc.`,
-      address: `PO Box 1234`,
-    },
+      address: `PO Box 1234`
+    }
   },
   plugins: [
     `gatsby-plugin-image`,

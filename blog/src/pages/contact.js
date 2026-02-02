@@ -25,7 +25,7 @@ const Contact = ({ data }) => {
                     style={{ marginBottom: `1.45rem`}}
                 />
             </div>
-            <link to="/">Home</link>
+            <Link to="/">Home</Link>
         </Layout>
     )
 }
@@ -37,9 +37,9 @@ query {
   site {
     siteMetadata {
       contact {
+        address
         company
         name
-        address
       }
     }
   }

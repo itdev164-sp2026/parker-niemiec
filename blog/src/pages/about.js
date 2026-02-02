@@ -15,7 +15,7 @@ const About = ({ data }) => {
             <p>{`At ${company} we just make blogs!`}</p>
             <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`}}>
                 <StaticImage 
-                    src="../images/gatsby-icon.png"
+                    src='../images/gatsby-icon.png'
                     width={300}
                     quality={95}
                     formats={["auto", "webp", "avif"]}
@@ -23,7 +23,7 @@ const About = ({ data }) => {
                     style={{ marginBottom: `1.45rem`}}
                 />
             </div>
-            <link to="/">Home</link>
+            <Link to="/">Home</Link>
         </Layout>
     )
 }
