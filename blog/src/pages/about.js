@@ -11,7 +11,7 @@ const About = ({ data }) => {
         <Layout>
             <Seo title="About Us" />
             <h1>About Us</h1>
-            <p>{`${company} was startred by ${name} in 2026.`}</p>
+            <p>{`${company} was started by ${name} in 2026.`}</p>
             <p>{`At ${company} we just make blogs!`}</p>
             <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`}}>
                 <StaticImage 
