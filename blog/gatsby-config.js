@@ -23,8 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `4pnrd98n52ch`,
-        accessToken:`ma5fg_GYscXNWbPsS5tTDLxKp-FhGiUu1Js-Xd1wxQ4`
+        spaceId: `${process.env.SPACE_ID}`,
+        accessToken:`${process.env.ACCESS_TOKEN}`
       }
     },
     `gatsby-plugin-image`,
